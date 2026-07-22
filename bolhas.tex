@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{etoolbox}
+\AtBeginEnvironment{algorithmic}{\linespread{0.9}\selectfont}
+
+\title{Algoritmo de Colisões com Cacique e Delegados Magnéticos}
+\author{Simulação de Bolhas}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{algorithm}[H]
+\caption{Lógica de colisões entre bolhas}
+\begin{algorithmic}[1]
+\small % <--- Adicione isto aqui
+\For{$i \gets 0$ \textbf{to} $num\_bolhas-1$}
+  \For{$j \gets i+1$ \textbf{to} $num\_bolhas-1$}
+
+    \If{$cooldown(i) > 0$ \textbf{or} $cooldown(j) > 0$}
+      \State \textbf{continue}
+    \EndIf
+    \If{$tipo(i) = P$ \textbf{and} $tipo(j) = P$}
+      \State \textbf{continue}
+    \EndIf
+
+    \State $hit \gets 0$
+
+    \Comment{--- Teste via M (delegados propagam) ---}
+    \If{$modoM(i)$ \textbf{or} $i = cacique$}
+      \If{$tipo(j) \neq P$ \textbf{or} $i = cacique$}
+        \State calcular posição $sM_i$
+        \If{$dist(sM_i, centro(j)) < r(j)^2$}
+          \State reemitir($i, sM_i$)
+          \If{$tipo(i) = S$ \textbf{and} $timeout(i) > 0$}
+            \State reemitir($j, dir(i)$)
+            \State decrementar $timeout(i)$
+            \If{$timeout(i) > 0$}
+              \State $dir(j) \gets dir(i)$; $timeout(j) \gets L$
+            \EndIf
+          \ElsIf{$tipo(j) = S$ \textbf{and} $timeout(j) > 0$}
+            \State reemitir($i, dir(j)$)
+            \State decrementar $timeout(j)$
+            \If{$timeout(j) > 0$}
+              \State $dir(i) \gets dir(j)$; $timeout(i) \gets L$
+            \EndIf
+          \Else
+            \State reemitir($j, m(i)$)
+          \EndIf
+          \State $hit \gets 1$
+        \EndIf
+      \EndIf
+    \EndIf
+
+    \Comment{--- Teste via S (cacique e delegados magnéticos) ---}
+    \If{$\neg modoM(i)$ \textbf{or} $i = cacique$}
+      \If{$tipo(j) \neq P$ \textbf{or} $i = cacique$}
+        \State calcular posição $sS_i$
+        \If{$dist(sS_i, centro(j)) < r(j)^2$}
+          \State reemitir($i, sS_i$)
+          \If{$i = cacique$ \textbf{or} ($tipo(i) = S$ \textbf{and} $timeout(i) > 0$)}
+            \State $dir(j) \gets (cacique.cx - j.cx, \ldots)$
+            \State normalizar($dir(j)$); $timeout(j) \gets L$
+          \ElsIf{$j = cacique$ \textbf{or} ($tipo(j) = S$ \textbf{and} $timeout(j) > 0$)}
+            \State $dir(i) \gets (cacique.cx - i.cx, \ldots)$
+            \State normalizar($dir(i)$); $timeout(i) \gets L$
+          \Else
+            \State calcular vetor auxiliar $aux$
+            \State reemitir($j, aux$)
+          \EndIf
+          \State $hit \gets 1$
+        \EndIf
+      \EndIf
+    \EndIf
+
+    \If{$hit = 1$}
+      \State alternar $modoM(i), modoM(j)$
+      \State $cooldown(i) \gets (i = cacique ? 1 : 20)$
+      \State $cooldown(j) \gets (j = cacique ? 1 : 20)$
+    \EndIf
+
+  \EndFor
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
