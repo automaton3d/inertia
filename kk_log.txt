@@ -1,0 +1,128 @@
+[frame 945] antes KK: num_hits=616 lim_hits=1 ar_delegados=0.385352
+[frame 945] depois KK: cxc=1 ar_delegados=0.385352
+[frame 2265] antes KK: num_hits=1113 lim_hits=1 ar_delegados=0.435516
+[frame 2265] depois KK: cxc=2 ar_delegados=0.435516
+[frame 3567] antes KK: num_hits=2261 lim_hits=1 ar_delegados=0.400285
+[frame 3567] depois KK: cxc=3 ar_delegados=0.400285
+[frame 4851] antes KK: num_hits=8525 lim_hits=1 ar_delegados=0.863389
+[frame 4851] depois KK: cxc=4 ar_delegados=0.863389
+[frame 6105] antes KK: num_hits=8246 lim_hits=1 ar_delegados=0.800787
+[frame 6105] depois KK: cxc=5 ar_delegados=0.800787
+[frame 7318] antes KK: num_hits=6139 lim_hits=1 ar_delegados=1.244560
+[frame 7318] depois KK: cxc=6 ar_delegados=1.244560
+[frame 8517] antes KK: num_hits=11369 lim_hits=1 ar_delegados=1.158358
+[frame 8517] depois KK: cxc=7 ar_delegados=1.158358
+[frame 9716] antes KK: num_hits=14043 lim_hits=1 ar_delegados=1.132302
+[frame 9716] depois KK: cxc=8 ar_delegados=1.132302
+[frame 11009] antes KK: num_hits=11577 lim_hits=1 ar_delegados=1.253910
+[frame 11009] depois KK: cxc=9 ar_delegados=1.253910
+[frame 12308] antes KK: num_hits=6796 lim_hits=1 ar_delegados=0.587603
+[frame 12308] depois KK: cxc=10 ar_delegados=0.587603
+[frame 13571] antes KK: num_hits=4882 lim_hits=1 ar_delegados=0.472319
+[frame 13571] depois KK: cxc=11 ar_delegados=0.472319
+[frame 14818] antes KK: num_hits=3810 lim_hits=1 ar_delegados=0.404576
+[frame 14818] depois KK: cxc=12 ar_delegados=0.404576
+[frame 16068] antes KK: num_hits=1498 lim_hits=1 ar_delegados=0.271916
+[frame 16068] depois KK: cxc=13 ar_delegados=0.271916
+[frame 17319] antes KK: num_hits=14425 lim_hits=1 ar_delegados=1.441553
+[frame 17319] depois KK: cxc=14 ar_delegados=1.441553
+[frame 18546] antes KK: num_hits=15001 lim_hits=1 ar_delegados=0.686790
+[frame 18546] depois KK: cxc=15 ar_delegados=0.686790
+[frame 19767] antes KK: num_hits=5923 lim_hits=1 ar_delegados=0.447652
+[frame 19767] depois KK: cxc=16 ar_delegados=0.447652
+[frame 20997] antes KK: num_hits=14819 lim_hits=1 ar_delegados=0.792323
+[frame 20997] depois KK: cxc=17 ar_delegados=0.792323
+[frame 22160] antes KK: num_hits=6620 lim_hits=1 ar_delegados=0.636922
+[frame 22160] depois KK: cxc=18 ar_delegados=0.636922
+[frame 23373] antes KK: num_hits=692 lim_hits=1 ar_delegados=0.128091
+[frame 23373] depois KK: cxc=19 ar_delegados=0.128091
+[frame 24548] antes KK: num_hits=6437 lim_hits=1 ar_delegados=0.737262
+[frame 24548] depois KK: cxc=20 ar_delegados=0.737262
+[frame 25694] antes KK: num_hits=6503 lim_hits=1 ar_delegados=0.771331
+[frame 25694] depois KK: cxc=21 ar_delegados=0.771331
+[frame 26844] antes KK: num_hits=6815 lim_hits=1 ar_delegados=0.833477
+[frame 26844] depois KK: cxc=22 ar_delegados=0.833477
+[frame 28044] antes KK: num_hits=15126 lim_hits=1 ar_delegados=1.294193
+[frame 28044] depois KK: cxc=23 ar_delegados=1.294193
+[frame 29171] antes KK: num_hits=15101 lim_hits=1 ar_delegados=1.465225
+[frame 29171] depois KK: cxc=24 ar_delegados=1.465225
+[frame 30280] antes KK: num_hits=13928 lim_hits=1 ar_delegados=0.839836
+[frame 30280] depois KK: cxc=25 ar_delegados=0.839836
+[frame 31380] antes KK: num_hits=8357 lim_hits=1 ar_delegados=0.642134
+[frame 31380] depois KK: cxc=26 ar_delegados=0.642134
+[frame 32470] antes KK: num_hits=5373 lim_hits=1 ar_delegados=0.510692
+[frame 32470] depois KK: cxc=27 ar_delegados=0.510692
+[frame 33571] antes KK: num_hits=4051 lim_hits=1 ar_delegados=0.455255
+[frame 33571] depois KK: cxc=28 ar_delegados=0.455255
+[frame 34692] antes KK: num_hits=3277 lim_hits=1 ar_delegados=0.392004
+[frame 34692] depois KK: cxc=29 ar_delegados=0.392004
+[frame 35803] antes KK: num_hits=2803 lim_hits=1 ar_delegados=0.362000
+[frame 35803] depois KK: cxc=30 ar_delegados=0.362000
+[frame 36869] antes KK: num_hits=1512 lim_hits=1 ar_delegados=0.253586
+[frame 36869] depois KK: cxc=31 ar_delegados=0.253586
+[frame 37990] antes KK: num_hits=6417 lim_hits=1 ar_delegados=0.534027
+[frame 37990] depois KK: cxc=32 ar_delegados=0.534027
+[frame 39069] antes KK: num_hits=9432 lim_hits=1 ar_delegados=1.310381
+[frame 39069] depois KK: cxc=33 ar_delegados=1.310381
+[frame 40146] antes KK: num_hits=15128 lim_hits=1 ar_delegados=1.850555
+[frame 40146] depois KK: cxc=34 ar_delegados=1.850555
+[frame 41229] antes KK: num_hits=6404 lim_hits=1 ar_delegados=0.653986
+[frame 41229] depois KK: cxc=35 ar_delegados=0.653986
+[frame 42314] antes KK: num_hits=12775 lim_hits=1 ar_delegados=1.511076
+[frame 42314] depois KK: cxc=36 ar_delegados=1.511076
+[frame 43378] antes KK: num_hits=15128 lim_hits=1 ar_delegados=1.413962
+[frame 43378] depois KK: cxc=37 ar_delegados=1.413962
+[frame 44426] antes KK: num_hits=15123 lim_hits=1 ar_delegados=1.178612
+[frame 44426] depois KK: cxc=38 ar_delegados=1.178612
+[frame 45447] antes KK: num_hits=12341 lim_hits=1 ar_delegados=1.274055
+[frame 45447] depois KK: cxc=39 ar_delegados=1.274055
+[frame 46493] antes KK: num_hits=14988 lim_hits=1 ar_delegados=1.263017
+[frame 46493] depois KK: cxc=40 ar_delegados=1.263017
+[frame 47534] antes KK: num_hits=7856 lim_hits=1 ar_delegados=0.678804
+[frame 47534] depois KK: cxc=41 ar_delegados=0.678804
+[frame 48591] antes KK: num_hits=5417 lim_hits=1 ar_delegados=0.579555
+[frame 48591] depois KK: cxc=42 ar_delegados=0.579555
+[frame 49628] antes KK: num_hits=4336 lim_hits=1 ar_delegados=0.510039
+[frame 49628] depois KK: cxc=43 ar_delegados=0.510039
+[frame 50663] antes KK: num_hits=3492 lim_hits=1 ar_delegados=0.440104
+[frame 50663] depois KK: cxc=44 ar_delegados=0.440104
+[frame 51676] antes KK: num_hits=3256 lim_hits=1 ar_delegados=0.445029
+[frame 51676] depois KK: cxc=45 ar_delegados=0.445029
+[frame 52711] antes KK: num_hits=3167 lim_hits=1 ar_delegados=0.408337
+[frame 52711] depois KK: cxc=46 ar_delegados=0.408337
+[frame 53724] antes KK: num_hits=2832 lim_hits=1 ar_delegados=0.369943
+[frame 53724] depois KK: cxc=47 ar_delegados=0.369943
+[frame 54723] antes KK: num_hits=5688 lim_hits=1 ar_delegados=0.614795
+[frame 54723] depois KK: cxc=48 ar_delegados=0.614795
+[frame 55686] antes KK: num_hits=7608 lim_hits=1 ar_delegados=0.829088
+[frame 55686] depois KK: cxc=49 ar_delegados=0.829088
+[frame 56626] antes KK: num_hits=2349 lim_hits=1 ar_delegados=0.319446
+[frame 56626] depois KK: cxc=50 ar_delegados=0.319446
+[frame 57578] antes KK: num_hits=15132 lim_hits=1 ar_delegados=2.097318
+[frame 57578] depois KK: cxc=51 ar_delegados=2.097318
+[frame 58513] antes KK: num_hits=868 lim_hits=1 ar_delegados=0.101373
+[frame 58513] depois KK: cxc=52 ar_delegados=0.101373
+[frame 59462] antes KK: num_hits=6815 lim_hits=1 ar_delegados=0.913542
+[frame 59462] depois KK: cxc=53 ar_delegados=0.913542
+[frame 60449] antes KK: num_hits=6359 lim_hits=1 ar_delegados=0.875398
+[frame 60449] depois KK: cxc=54 ar_delegados=0.875398
+[frame 61435] antes KK: num_hits=2405 lim_hits=1 ar_delegados=0.366541
+[frame 61435] depois KK: cxc=55 ar_delegados=0.366541
+[frame 62408] antes KK: num_hits=3261 lim_hits=1 ar_delegados=0.376352
+[frame 62408] depois KK: cxc=56 ar_delegados=0.376352
+[frame 63375] antes KK: num_hits=6172 lim_hits=1 ar_delegados=0.712273
+[frame 63375] depois KK: cxc=57 ar_delegados=0.712273
+[frame 64309] antes KK: num_hits=7642 lim_hits=1 ar_delegados=0.669871
+[frame 64309] depois KK: cxc=58 ar_delegados=0.669871
+[frame 65265] antes KK: num_hits=15132 lim_hits=1 ar_delegados=1.541282
+[frame 65265] depois KK: cxc=59 ar_delegados=1.541282
+[frame 66222] antes KK: num_hits=8327 lim_hits=1 ar_delegados=1.195538
+[frame 66222] depois KK: cxc=60 ar_delegados=1.195538
+[frame 67168] antes KK: num_hits=15132 lim_hits=1 ar_delegados=1.575637
+[frame 67168] depois KK: cxc=61 ar_delegados=1.575637
+[frame 68108] antes KK: num_hits=15128 lim_hits=1 ar_delegados=1.833428
+[frame 68108] depois KK: cxc=62 ar_delegados=1.833428
+[frame 69035] antes KK: num_hits=15132 lim_hits=1 ar_delegados=1.894072
+[frame 69035] depois KK: cxc=63 ar_delegados=1.894072
+[frame 69960] antes KK: num_hits=15128 lim_hits=1 ar_delegados=1.883176
+[frame 69960] depois KK: cxc=64 ar_delegados=1.883176
